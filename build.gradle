@@ -28,5 +28,10 @@ dependencies {
 }
 
 // Define the main class for the application
-mainClassName = 'App'
+mainClassName = 'com.example.MainClass'
+task hello{
+doLast{
+println 'Hello.gradle'
+}
+}
 
