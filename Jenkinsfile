@@ -10,7 +10,7 @@ pipeline{
             git branch: 'master', url: 'https://github.com/minj-03/pgradle.git'
         }
       }
-      stage('Build){
+      stage('Build'){
           steps{
             sh 'gradle build'
           }
