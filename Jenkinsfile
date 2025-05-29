@@ -7,7 +7,7 @@ pipeline{
   stages{
       stage('Checkout'){
           steps{
-            git branch: 'master', url: 'https://github.com/minj-03/pgradle.git
+            git branch: 'master', url: 'https://github.com/minj-03/pgradle.git'
         }
       }
       stage('Build){
